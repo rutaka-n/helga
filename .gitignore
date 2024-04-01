@@ -3,7 +3,11 @@
 *.beam
 *.plt
 erl_crash.dump
+.erlang.cookie
 .concrete/DEV_MODE
+ebin
+log
+logs
 
 # rebar 2.x
 .rebar
@@ -15,6 +19,13 @@ deps
 .rebar3
 _build/
 _checkouts/
+_vendor
 
 # asdf
 .tool-versions
+
+*.swp
+*.swo
+*.iml
+rebar3.crashdump
+*~
